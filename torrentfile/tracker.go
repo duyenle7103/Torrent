@@ -1,10 +1,12 @@
-package main
+package torrentfile
 
 import (
 	"net/http"
 	"net/url"
 	"strconv"
 	"time"
+
+	"github.com/veggiedefender/torrent-client/peers"
 
 	"github.com/jackpal/bencode-go"
 )

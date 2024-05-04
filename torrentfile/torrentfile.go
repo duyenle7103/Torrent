@@ -1,4 +1,4 @@
-package main
+package torrentfile
 
 import (
 	"bytes"
@@ -8,6 +8,7 @@ import (
 	"os"
 
 	"github.com/jackpal/bencode-go"
+	"github.com/duyenle7103/Torrent/p2p"
 )
 
 // Port to listen on

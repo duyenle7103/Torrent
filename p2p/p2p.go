@@ -1,4 +1,4 @@
-package main
+package p2p
 
 import (
 	"bytes"
@@ -7,6 +7,10 @@ import (
 	"log"
 	"runtime"
 	"time"
+
+	"github.com/duyenle7103/Torrent/client"
+	"github.com/duyenle7103/Torrent/message"
+	"github.com/duyenle7103/Torrent/peers"
 )
 
 // MaxBlockSize is the largest number of bytes a request can ask for

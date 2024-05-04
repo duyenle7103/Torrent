@@ -1,10 +1,17 @@
-package main
+package client
 
 import (
 	"bytes"
 	"fmt"
 	"net"
 	"time"
+
+	"github.com/duyenle7103/Torrent/bitfield"
+	"github.com/duyenle7103/Torrent/peers"
+
+	"github.com/duyenle7103/Torrent/message"
+
+	"github.com/duyenle7103/Torrent/handshake"
 )
 
 // A Client is a TCP connection with a peer
